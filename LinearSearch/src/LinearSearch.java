@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class LinearSearch {
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[] args) {
+		System.out.println("enter size");
 		int size=sc.nextInt();
 		int[] array=new int[size];
 		for(int i=0;i<array.length;i++)
