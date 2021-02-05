@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class LinearSearch {
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[] args) {
-		int size=sc.nextInt();
-		int[] array=new int[size];
+		int n=sc.nextInt();
+		int[] array=new int[n];
 		for(int i=0;i<array.length;i++)
 		{
 			array[i]=sc.nextInt();
